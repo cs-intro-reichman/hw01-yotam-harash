@@ -7,7 +7,6 @@ public class Triangle {
 	public static void main(String[] args) {
 		
 		boolean tri=false;
-		System.out.println(" inseret 3 number for triangle");
 		double first = Integer.parseInt(args[0]);
         double sec = Integer.parseInt(args[1]);
 		double three = Integer.parseInt(args[2]);

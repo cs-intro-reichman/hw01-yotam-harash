@@ -8,10 +8,11 @@ public class LinearEq {
 
 	public static void main(String[] args){
 
-		System.out.println(" inseret 3 number for LinerEq");
+		
 		double first = Integer.parseInt(args[0]);
         double sec = Integer.parseInt(args[1]);
 		double three = Integer.parseInt(args[2]);
+		System.err.println("% java LinearEq "+ first + " "+ sec +" "+ three );
 		System.out.println(first + " * x + " + sec + " = " + three);
 		double x= (three-sec)/first;
 		System.out.println("x = " + x);
