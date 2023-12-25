@@ -5,11 +5,9 @@
 public class Coins {
 	public static void main(String[] args) {
 
-		
 		int a = Integer.parseInt(args[0]);
-		int quarter=a%25;
+		int quarter=a/25;
 		int cents=a-(quarter*25);
-		
 		System.out.println("Use " + quarter + " quarters and " + cents + " cents" );
 
 		

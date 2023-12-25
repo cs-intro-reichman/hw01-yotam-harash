@@ -12,7 +12,7 @@ public class Triangle {
 		double three = Integer.parseInt(args[2]);
 		tri= (first +sec>three) && (first +three>sec) && (three +sec>first);
 		
-		System.out.println(first+ " , "+ sec+" , "+ three + " : "+ tri);
+		System.out.println(first+ ", "+ sec+", "+ three + ": "+ tri);
 		
 	}
 }
