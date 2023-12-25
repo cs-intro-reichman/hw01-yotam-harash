@@ -7,11 +7,10 @@ public class Triangle {
 	public static void main(String[] args) {
 		
 		boolean tri=false;
-		double first = Integer.parseInt(args[0]);
-        double sec = Integer.parseInt(args[1]);
-		double three = Integer.parseInt(args[2]);
+		int first = Integer.parseInt(args[0]);
+        int sec = Integer.parseInt(args[1]);
+		int three = Integer.parseInt(args[2]);
 		tri= (first +sec>three) && (first +three>sec) && (three +sec>first);
-		
 		System.out.println(first+ ", "+ sec+", "+ three + ": "+ tri);
 		
 	}

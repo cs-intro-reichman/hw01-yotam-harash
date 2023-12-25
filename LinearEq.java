@@ -8,7 +8,6 @@ public class LinearEq {
 
 	public static void main(String[] args){
 
-		
 		double first = Integer.parseInt(args[0]);
         double sec = Integer.parseInt(args[1]);
 		double three = Integer.parseInt(args[2]);
