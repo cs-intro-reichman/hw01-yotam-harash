@@ -7,10 +7,10 @@ public class AddTwo {
 	 {
 
 		
-		int first = Integer.parseInt(args[0]);
-        int sec = Integer.parseInt(args[1]);
-		System.out.println("% java AddTwo "+ first + " " + sec);
-		System.out.println(first + " + " + sec + " = " + (first+sec));
+		int a = Integer.parseInt(args[0]);
+        int b = Integer.parseInt(args[1]);
+		System.out.println("% java AddTwo "+ a + " " + b);
+		System.out.println(a + " + " + b + " = " + (a+b));
 
 
 
