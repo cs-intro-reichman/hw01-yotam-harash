@@ -12,9 +12,9 @@ public class GenThree {
             int b = Integer.parseInt(args[1]);
 			int max= Math.max(a, b);
 			int min= Math.min(a, b);
-            int num1 = (int)((Math.random() * (max -min + 1) + min));
-            int num2 = (int)((Math.random() * (max -min + 1) + min));
-            int num3 = (int)((Math.random() * (max -min + 1) + min));
+            int num1 = (int)((Math.random() * (max -min) + min));
+            int num2 = (int)((Math.random() * (max -min) + min));
+            int num3 = (int)((Math.random() * (max -min) + min));
             System.out.println(num1);
             System.out.println(num2);
             System.out.println(num3);
