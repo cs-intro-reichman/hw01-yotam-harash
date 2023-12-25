@@ -5,6 +5,15 @@
  */ 
 public class Triangle {
 	public static void main(String[] args) {
-		// Put your code here	
+		
+		boolean tri=false;
+		System.out.println(" inseret 3 number for triangle");
+		double first = Integer.parseInt(args[0]);
+        double sec = Integer.parseInt(args[1]);
+		double three = Integer.parseInt(args[2]);
+		tri= (first +sec>three) && (first +three>sec) && (three +sec>first);
+		System.out.println("% java Triangle "+ first+ " "+ sec+" "+ three);
+		System.out.println( first+ " , "+ sec+" , "+ three + " : "+ tri);
+		
 	}
 }

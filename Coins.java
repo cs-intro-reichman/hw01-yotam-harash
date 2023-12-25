@@ -4,6 +4,12 @@
  */
 public class Coins {
 	public static void main(String[] args) {
-		// Put your code here
+		System.out.println("enter a number");
+		int a = Integer.parseInt(args[0]);
+		int b=a;
+		int sum=b%25;
+		int q=b-(sum*25);
+		System.out.println("% Java Coins "+ a);
+		System.out.println("Use " + sum + " quarters and " + q + "cents" );
 	}
 }
